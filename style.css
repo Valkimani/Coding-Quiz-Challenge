@@ -1,6 +1,8 @@
 /* Added styling to the h1*/
 h1 {
   font-size: small;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 /* Added styling to the container */
 .container {
