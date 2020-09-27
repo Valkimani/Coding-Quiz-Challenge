@@ -18,3 +18,7 @@ button {
   color: white;
   border-radius: 8px 8px;
 }
+ul {
+  list-style: none;
+  vertical-align: top;
+}
