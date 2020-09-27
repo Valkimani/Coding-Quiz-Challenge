@@ -1,21 +1,18 @@
-/* Added styling to the button */
-
+/* Added styling to the h1*/
 h1 {
   font-size: small;
 }
+/* Added styling to the container */
+.container {
+  padding-top: 50px;
+}
+
 #time {
   float: right;
 }
-
+/* Added styling to the button */
 button {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   background: blueviolet;
   color: white;
   border-radius: 8px 8px;
-  margin: 80px 80px 80px 80px;
 }
