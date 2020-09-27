@@ -1,4 +1,12 @@
 /* Added styling to the button */
+
+h1 {
+  font-size: small;
+}
+#time {
+  float: right;
+}
+
 button {
   margin: 0;
   position: absolute;
