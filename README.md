@@ -23,7 +23,7 @@ This code challenge demonstrates how to build a timed coding quiz with multiple-
 
 ![codequiz](/images/codequiz.png)
 ![quizscores](/images/quizscores.png)
-![finalscore](/images/finalscore.png)
+![yourscore](/images/yourscore.png)
 
 LINKS
 
