@@ -18,6 +18,7 @@ button {
   color: white;
   border-radius: 8px 8px;
 }
+/* styled the button in data container */
 ul {
   list-style: none;
   vertical-align: top;

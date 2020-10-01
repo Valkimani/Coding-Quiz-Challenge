@@ -42,19 +42,27 @@
       </div>
     </div>
     <!-- Added the second container 'data' and created the buttons. -->
-    <div class="container" id="data">
+    <div class="container-12 text-center">
       <div class="row">
-        <div class="col-sm-12 text-center" id="common-data">
-          <h2>Commonly used data types DO NOT include:</h2>
-          <ul>
-            <li><button class="=start" id="data-types">1.strings</button></li>
-            <li><button class="=start" id="data-types">2.booleans</button></li>
-            <li><button class="=start" id="data-types">3.alerts</button></li>
-            <li><button class="=start" id="data-types">4.numbers</button></li>
-          </ul>
-        </div>
+        <!-- <div class="col-12 text-center" id="data-type">Commonly used data types DO NOT include:</div> -->
+        <div class="col-sm-8" id="question-container"></div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-sm-8"></div>
+      <!-- Commonly used data types DO NOT include: -->
+      <h3 id="heading"></h3>
+      <div class="col-sm-8 text-center" id="answer-container"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-8"></div>
+
+      <div class="col-sm-8 text-center" id="score-answer"></div>
+    </div>
+
+    <!-- Removed the buttons in html and created an array in script.js -->
+
     <script src="./script.js" async defer></script>
   </body>
 </html>
