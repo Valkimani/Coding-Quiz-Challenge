@@ -4,6 +4,17 @@ h1 {
   padding-left: 8px;
   padding-right: 8px;
 }
+/* styled the button in data container */
+ul {
+  list-style: none;
+  vertical-align: top;
+}
+
+button {
+  background: blueviolet;
+  color: white;
+  border-radius: 8px 8px;
+}
 /* Added styling to the container */
 .container {
   padding-top: 50px;
@@ -13,13 +24,3 @@ h1 {
   float: right;
 }
 /* Added styling to the button */
-button {
-  background: blueviolet;
-  color: white;
-  border-radius: 8px 8px;
-}
-/* styled the button in data container */
-ul {
-  list-style: none;
-  vertical-align: top;
-}

@@ -131,44 +131,12 @@ function renderdataType() {
     });
     answerConatiner.append(choiceBtn);
   }
-
-  // Have a couple of hard coded values and generate everything else dynamically
-  //
-  //
-  // // Have a line break below and display correctt or wrong
-  //
 }
+// Have a couple of hard coded values and generate everything else dynamically
+//
+//
+//
 
-// // console.log("Hello world");
-// // Targeted the id in the quiz container and the button
-// var quizContainer = document.getElementById("quiz");
-// var startButton = document.getElementById("start-quiz");
-// var commonData = document.getElementById("common-data");
-// // addEventListener to listen to the start button
-// startButton.addEventListener("click", function () {
-//   //styled the quizConatiner id to hide it when the start button was clicked.
-//   quizContainer.style.display = "none";
-//   renderCommonData();
-// });
-// // Added a function
-// function renderCommonData() {
-//   var dataType = ["1.strings", "2. booleans", "3.  alerts", "4.numbers"];
-
-//   for (var i = 0; i < dataType.length; i++) {
-//     //1. Create an element
-
-//     var button = document.createElement("button");
-//     //2. Add content
-//     button.setAttribute(
-//       "style",
-//       "vhorizontal-align text-center margin-top 80px"
-//     );
-//     button.textContent = dataType[i];
-//     button.setAttribute("data-value", dataType[i]);
-//     // 3.  Append to an existing element
-//     commonData.append(button);
-//   }
-// }
 // commonData.addEventListener("click", function (event) {
 //   if (event.target.matches("button")) {
 //     console.log("Data type");
